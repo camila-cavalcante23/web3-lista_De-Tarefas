@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(17, 161, 245);
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .App {
+    margin: 30px 5px;
+    color: rgb(255, 255, 255);
+   
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-shadow: 1px 1px black;
   }
-}
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input, form select, form button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Botão "Adicionar" */
+  form button:hover {
+    background-color: rgb(3, 189, 74);
+    color: white;
+  }
+  
+  /* Botões de filtro */
+  button.filter {
+    margin: 5px;
+  }
+  
+  button.filter:hover {
+    color: white;
+  }
+  
+  button.filter-all:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  button.filter-completed:hover {
+    background-color: rgb(3, 189, 74);
+  }
+  
+  button.filter-pending:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /* Botões de prioridade */
+  form select {
+    cursor: pointer;
+  }
+  
+  /* Estilização da lista de tarefas */
+  ul {
+    text-align: left;
+    margin-top: 10px;
+    padding: 25px;
+  }
+  
+  li {
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black; /* Fonte preta para as tarefas */
+  }
+  
+  li > span {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  /* Botões "Completar" e "Remover" */
+  button.complete {
+    margin-left: auto;
+  }
+  
+  button.remove {
+    margin-left: 10px;
+  }
+  
+  button.remove:hover {
+    background-color: rgb(218, 68, 68); /* Vermelho ao passar o mouse */
+    color: white;
+  }
+  
+  button.complete:hover {
+    background-color: rgb(3, 189, 74);
+    color: white;
+  }
+  
+  /* Calendário */
+  input[type="date"], input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+  }
+
+  
+
+  
