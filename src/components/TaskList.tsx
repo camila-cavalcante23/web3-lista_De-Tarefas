@@ -45,7 +45,7 @@ const TaskList: React.FC<TaskListProps> = ({ tarefas, removerTarefa, atualizarTa
           <p>
             - Após adicionar suas tarefas, você pode visualizá-las em diferentes categorias. <br />
             - Clique no botão "Todas" para ver todas as tarefas. <br />
-            - Clique no botão "Completas" para ver as tarefas marcadas como completas. <br />
+            - Clique no botão "Concluídas" para ver as tarefas marcadas como Concluídas. <br />
             - Clique no botão "Pendentes" para ver as tarefas que ainda não foram concluídas.
           </p>
           
