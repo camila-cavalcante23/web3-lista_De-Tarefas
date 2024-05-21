@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/web3-lista_De-Tarefas/static/css/main.c9412813.css",
-    "main.js": "/web3-lista_De-Tarefas/static/js/main.d5523941.js",
+    "main.js": "/web3-lista_De-Tarefas/static/js/main.fe5b9629.js",
     "index.html": "/web3-lista_De-Tarefas/index.html",
     "main.c9412813.css.map": "/web3-lista_De-Tarefas/static/css/main.c9412813.css.map",
-    "main.d5523941.js.map": "/web3-lista_De-Tarefas/static/js/main.d5523941.js.map"
+    "main.fe5b9629.js.map": "/web3-lista_De-Tarefas/static/js/main.fe5b9629.js.map"
   },
   "entrypoints": [
     "static/css/main.c9412813.css",
-    "static/js/main.d5523941.js"
+    "static/js/main.fe5b9629.js"
   ]
 }
